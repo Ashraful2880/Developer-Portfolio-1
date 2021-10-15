@@ -1,0 +1,118 @@
+/*-------------> Common Style Here <-----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 0 7%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    margin-top: 45px;
+    margin-bottom: 22px;
+}
+
+.name {
+    color: orange;
+}
+
+/*----------> Top Banner Area Style <---------*/
+.banner-area {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    margin-top: 100px;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-image: linear-gradient(45deg, orange, tomato);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(45deg, tomato, orange);
+}
+
+.banner-image img {
+    width: 90%;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+/*---------> Dream Area Style <----------*/
+.dream-area {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
+}
+
+/*--------------> Experience Area Style <----------*/
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+
+.exp-container {
+    display: flex;
+}
+
+.experience-head {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.full-stack {
+    width: 45%;
+    box-shadow: 5px 5px 50px rgb(153, 153, 153);
+    padding: 45px 30px;
+    margin-right: 2.5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg, red, blue);
+    border-image-slice: 2;
+}
+
+.baby-web {
+    width: 45%;
+    margin-left: 2.5%;
+    box-shadow: 5px 5px 50px rgb(153, 153, 153);
+    padding: 45px 30px;
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg, tomato, rgb(141, 94, 6));
+    border-image-slice: 2;
+}
+
+/*-------------> Footer Area Style <------------ */
+footer {
+    text-align: center;
+    margin-bottom: 40px;
+}
